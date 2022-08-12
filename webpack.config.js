@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/index.js',
   mode: process.env === 'development' ? 'development' : 'production',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     filename: 'index.[hash].js'
   },
   module: {
